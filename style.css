@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    padding: 2rem;
+}
+
+.row{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.dBlock{
+    display: flex;
+    margin: 0 auto;
+}
+
+ul{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.dBlock span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caret {
+    user-select: none;
+}
+
+.caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nested {
+    display: none;
+}
+
+.active {
+    display: block;
+}
